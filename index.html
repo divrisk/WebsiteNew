@@ -11,6 +11,76 @@
   gtag('config', 'UA-108295505-2');
 </script>
 	
+<style>
+          /* @media start */
+          
+          /* we don't need to specify for smartphones, that's our default layout */
+          
+          /*
+          -7 inch tablets
+          -This CSS will apply for devices with the minimum width of 480 pixels
+          */
+          @media only screen and (min-width: 480px) {
+               #mainHeader {
+                    background-color:#EFEF34;
+               }
+               
+               nav ul li{
+                    float:left;
+                    width:25%;
+               }
+          }
+          
+          /*
+          -10 inch tablets
+          -This CSS will apply for devices with the minimum width of 768 pixels
+          */
+          @media only screen and (min-width: 768px) {
+               #mainHeader {
+                    background-color:#EDD49A;
+               }
+               
+               #mainSection{
+                    float: left;
+                    width: 61%;
+               }
+               
+               #sideBox1{
+                    float: right;
+                    width: 30%;
+               }
+               
+               
+          }
+          
+          /*
+          -Desktop computers
+          -This CSS will apply for devices with the minimum width of 1140 pixels
+          */
+          @media only screen and (min-width: 1140px) {
+               #mainHeader {
+                    background-color:#CE9429;
+               }
+               
+               #responsiveLogo{
+                    float:left;
+                    width:30%;
+               }
+               
+               nav{
+                    float:left;
+                    width:70%;
+               }
+               
+               nav ul{
+                    margin:1.5em 0 0 0;
+               }
+          }
+          
+          /* @media end */	
+</style>	
+	
+	
 <meta content='width=device-width, initial-scale=1' name='viewport'/>	
 	
 	<meta charset="utf-8">
