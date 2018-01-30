@@ -131,7 +131,7 @@ padding-left: 5%;
 	position: absolute;
 	float: left;
 	z-index: 999;
-	
+	width:auto;
 	height: 124px;
 	padding-top: 9px;
 
