@@ -6,6 +6,11 @@ http://www.tooplate.com/view/2077-modern-town
 
 */
 
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 /* Body 
 ------------------------------------- */
 body {
@@ -25,11 +30,6 @@ html,body {
     display: block;
 }
 
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-}
 
 /* Typography
 ------------------------------------- */
