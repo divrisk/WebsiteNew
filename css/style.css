@@ -428,11 +428,7 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-#home {
-  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
-  -webkit-background-size: contain;
-  background-size: contain;
-	}	
+	
   
 }
 
@@ -440,10 +436,7 @@ footer a:hover {
   h1 {
     font-size: 40px;
   }
-#home {
-  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
-  -webkit-background-size: contain;
-  background-size: contain;}	
+	
 }
 
 @media (max-width: 450px) {
@@ -458,11 +451,7 @@ footer a:hover {
     display: inline-block;
     padding: 14px 32px;
   }
-#home {
-  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
-  -webkit-background-size: contain;
-  background-size: contain;
-}	
+	
 }
 
 @media (max-width: 375px) {
@@ -473,9 +462,5 @@ footer a:hover {
   #home h5 {
     font-size: 9px;
   }
-	#home {
-  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
+
 }
