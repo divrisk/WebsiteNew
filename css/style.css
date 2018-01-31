@@ -144,8 +144,8 @@ p {
 /* ========================================== */
 #home {
   background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  background-size: contain;
   background-position: center center;
   display: -webkit-box;
   display: -webkit-flex;
