@@ -128,7 +128,7 @@ padding-left: 5%;
 /*----------------------End Header --------------------*/
  
 .logo{
-	position: absolute;
+	position: relative;
 	float: left;
 	z-index: 999;
 	width:auto;
@@ -284,7 +284,7 @@ padding-left: 5%;
 	margin-left: 10px !important;
 }
 .logo{
-	position: absolute;
+	position: relative;
 	top:0px;
 	padding-top: 9px;
 	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
