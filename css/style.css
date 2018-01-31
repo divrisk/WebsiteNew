@@ -6,6 +6,8 @@ http://www.tooplate.com/view/2077-modern-town
 
 */
 
+
+
 /* Body 
 ------------------------------------- */
 body {
@@ -136,7 +138,7 @@ p {
 /* home section styles
 /* ========================================== */
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -453,3 +455,4 @@ footer a:hover {
     font-size: 9px;
   }
 }
+
