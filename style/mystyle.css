@@ -128,7 +128,7 @@ padding-left: 5%;
 /*----------------------End Header --------------------*/
  
 .logo{
-	position: relative;
+	position: absolute;
 	float: left;
 	z-index: 999;
 	width:auto;
