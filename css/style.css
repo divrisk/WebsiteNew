@@ -428,11 +428,11 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-}	
+#home {
+  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
+  -webkit-background-size: contain;
+  background-size: contain;
+	}	
   
 }
 
@@ -440,11 +440,10 @@ img {
   h1 {
     font-size: 40px;
   }
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-}	
+#home {
+  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
+  -webkit-background-size: contain;
+  background-size: contain;}	
 }
 
 @media (max-width: 450px) {
@@ -459,10 +458,10 @@ img {
     display: inline-block;
     padding: 14px 32px;
   }
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
+#home {
+  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
+  -webkit-background-size: contain;
+  background-size: contain;
 }	
 }
 
@@ -474,9 +473,9 @@ img {
   #home h5 {
     font-size: 9px;
   }
-	img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
+	#home {
+  background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 }
