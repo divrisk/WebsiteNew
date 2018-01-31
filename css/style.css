@@ -427,6 +427,11 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}	
   
 }
 
@@ -434,6 +439,11 @@ footer a:hover {
   h1 {
     font-size: 40px;
   }
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}	
 }
 
 @media (max-width: 450px) {
@@ -448,6 +458,11 @@ footer a:hover {
     display: inline-block;
     padding: 14px 32px;
   }
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}	
 }
 
 @media (max-width: 375px) {
@@ -458,4 +473,9 @@ footer a:hover {
   #home h5 {
     font-size: 9px;
   }
+	img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 }
