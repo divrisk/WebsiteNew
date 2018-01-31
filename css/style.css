@@ -85,7 +85,7 @@ p {
 
 .parallax-section {
   	background-attachment: fixed !important;
-  	background-size: contain !important;
+  	background-size: cover !important;
 }
 
 
@@ -144,8 +144,8 @@ p {
 /* ========================================== */
 #home {
   background: url('../images/home-bg.jpg') 100% 0 no-repeat fixed;
-  -webkit-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: center center;
   display: -webkit-box;
   display: -webkit-flex;
