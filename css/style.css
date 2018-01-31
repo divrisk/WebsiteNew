@@ -150,7 +150,7 @@ p {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 80vh;
   text-align: center;
 }
 
