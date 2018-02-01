@@ -423,13 +423,44 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
+  #home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  text-align: center;
+}
 }
 
 @media (max-width: 650px) {
   h1 {
     font-size: 40px;
   }
+	#home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  text-align: center;
+}
 }
 
 @media (max-width: 450px) {
@@ -444,6 +475,24 @@ footer a:hover {
     display: inline-block;
     padding: 14px 32px;
   }
+#home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  text-align: center;
+}	
+	
+	
 }
 
 @media (max-width: 375px) {
@@ -454,5 +503,24 @@ footer a:hover {
   #home h5 {
     font-size: 9px;
   }
+#home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  text-align: center;
+}	
+	
+	
+	
 }
 
