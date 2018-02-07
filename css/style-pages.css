@@ -136,7 +136,7 @@ p {
 /* home section styles
 /* ========================================== */
 #home {
-  background: url('../images/bigstock--183620266.jpg') 50% 0 repeat-y fixed;
+  background: 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
