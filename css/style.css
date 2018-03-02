@@ -516,7 +516,7 @@ footer a:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: auto;
+  height: 80vh;
   text-align: center;
 }	
 	
