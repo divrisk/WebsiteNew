@@ -424,7 +424,7 @@ footer a:hover {
     padding-bottom: 20px;
   }
   #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -446,7 +446,7 @@ footer a:hover {
     font-size: 40px;
   }
 	#home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -476,7 +476,7 @@ footer a:hover {
     padding: 14px 32px;
   }
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -504,7 +504,7 @@ footer a:hover {
     font-size: 9px;
   }
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
