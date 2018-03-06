@@ -1,12 +1,7 @@
 /*
-
 Template 2077 Modern Town
-
 http://www.tooplate.com/view/2077-modern-town
-
 */
-
-
 
 /* Body 
 ------------------------------------- */
@@ -84,7 +79,7 @@ p {
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax-section {
         background-attachment: scroll;
     }
 }
@@ -144,7 +139,7 @@ p {
 /* home section styles
 /* ========================================== */
 #home {
-  background: url('../images/bigstock--129703877-min.jpg') 50% 0 no-repeat fixed;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -173,7 +168,7 @@ p {
   background: #000000;
   border-color: transparent;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 30px;
   font-weight: bold;
   padding: 14px 52px;
   margin-top: 40px;
@@ -429,8 +424,8 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  #home {
-  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
+#home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -445,14 +440,20 @@ footer a:hover {
   height: auto;
   text-align: center;
 }
+
+
+
+
+
+  
 }
 
 @media (max-width: 650px) {
   h1 {
     font-size: 40px;
   }
-	#home {
-  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
+#home {
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -467,6 +468,12 @@ footer a:hover {
   height: auto;
   text-align: center;
 }
+
+#home .btn {
+  font-size: 10px;
+}
+
+
 }
 
 @media (max-width: 450px) {
@@ -482,7 +489,7 @@ footer a:hover {
     padding: 14px 32px;
   }
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -496,9 +503,11 @@ footer a:hover {
           align-items: center;
   height: auto;
   text-align: center;
-}	
-	
-	
+}
+#home .btn {
+  font-size: 10px;
+}
+
 }
 
 @media (max-width: 375px) {
@@ -510,7 +519,7 @@ footer a:hover {
     font-size: 9px;
   }
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 no-repeat fixed;
+  background: url('../images/home-bg.jpg') 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -522,11 +531,16 @@ footer a:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
+  height: auto;
   text-align: center;
-}	
-	
-	
-	
 }
+#home .btn {
+  font-size: 10px;
+
+}
+
+
+}
+
+
 
